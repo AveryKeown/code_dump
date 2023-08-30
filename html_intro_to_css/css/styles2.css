@@ -1,5 +1,5 @@
 html{
-    background-image: url("/images/mush136.png");
+    background-image: url("/html_intro_to_css/images/mush136.png");
 }
 body{
     background-color:rgb(35, 61, 100);
@@ -36,7 +36,7 @@ header img{
     width: 25%;
 }
 main{
-    padding: 20 px;
+    padding: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: rgb(85, 153, 255);
 }
