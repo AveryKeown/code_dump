@@ -1,0 +1,101 @@
+html{
+    background-image: url("/html_intro_to_css/images/mush136.png");
+}
+body{
+    background-color:rgb(35, 61, 100);
+    border-radius: 20px;
+    text-align: center;
+    width: 800px;
+    margin: 20px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(85, 153, 255);
+}
+footer{
+    background-color:rgb(18, 22, 82);
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 40px 0;
+} 
+footer a {
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(85, 153, 255);
+}
+header{
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(85, 153, 255);
+}
+header img{
+    display: block;
+    margin: 20px auto;
+    width: 25%;
+}
+main{
+    padding: 20 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(85, 153, 255);
+}
+main img{
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    border: 6px solid rgb(18, 22, 82);
+    border-radius: 5px 5px 5px 5px;
+}
+nav{
+    background-color:rgb(18, 22, 82);
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 9px;
+    padding-top: 2px;
+}
+nav a{
+    color:rgb(255, 255, 255);
+    margin: 0 28px;
+    font-size: 30px;
+    text-align: center;
+    background-color:rgb(60, 63, 255);
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: none;
+    color:rgb(52, 123, 255);
+    background-color:rgb(38, 42, 253);
+}
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(18, 22, 82)
+}
+h3 {
+    overflow-wrap: normal;
+    width: 50%;
+    margin: 20px auto;
+}
+p{
+    width: 80%;
+    margin: 20px auto;
+    overflow-wrap: normal;
+}
+ul{
+    margin: 20px auto;
+    text-align: center;
+    width: 20%;
+    background-color: rgb(60, 63, 255);
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
