@@ -3,16 +3,13 @@ html{
 }
 body{
     background-color:rgb(255, 135, 209);
-    border-radius: 20px;
     text-align: center;
     width: 800px;
     margin: 20px auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: rgb(0, 0, 0);
 }
 footer{
     background-color:rgb(255, 226, 133);
-    border-radius: 0 0 20px 20px;
     text-align: center;
     padding: 40px 0;
 }
@@ -20,15 +17,13 @@ footer a {
     color:rgb(255, 255, 255);
     text-align: center;
     font-size: 28px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    color: rgb(85, 153, 255);
+    color: rgb(0, 0, 0);
 }
 header{
     padding: 20px;
     text-align: center;
     font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    color: rgb(85, 153, 255);
+    color: rgb(0, 0, 0);
 }
 header img{
     display: block;
@@ -37,15 +32,12 @@ header img{
 }
 main{
     margin: 20px auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    color: rgb(85, 153, 255);
+    color: rgb(0, 0, 0);
 }
 main img{
     display: block;
     margin: 20px auto;
-    width: 40%;
-    border: 6px solid rgb(18, 22, 82);
-    border-radius: 5px 5px 5px 5px;
+    width: 60%;
 }
 nav{
     background-color:rgb(255, 226, 133);
@@ -56,25 +48,21 @@ nav{
 
 }
 nav a{
-    color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     margin: 0 28px;
     font-size: 30px;
     text-align: center;
-    background-color:rgb(60, 63, 255);
     border-radius: 5px 5px 5px 5px;
     padding-left: 5px;
     padding: 5px;
-    text-decoration: none;
 }
 nav a:hover{
     text-decoration: none;
-    color:rgb(52, 123, 255);
-    background-color:rgb(38, 42, 253);
+    color:rgb(116, 0, 48);
 }
 a {
     color: white;
     text-align: center;
-    text-decoration: none;
 }
 a:hover{
     text-decoration: none;
@@ -94,9 +82,7 @@ ul{
     margin: 20px auto;
     text-align: center;
     width: 20%;
-    background-color: rgb(60, 63, 255);
-    border-radius: 5px 5px 5px 5px;
-    color: white;
+    color: rgb(0, 0, 0);
     padding-bottom: 5px;
     padding-top: 5px;
 }
