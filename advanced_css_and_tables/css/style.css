@@ -3,7 +3,7 @@ html{
 }
 body{
     background-color: azure;
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin: 20px auto;
 }
@@ -42,4 +42,53 @@ nav li a{
 nav li a:hover{   
     color:crimson;
     background-color:rgb(74, 109, 175);
+}
+main {
+    display: flex;
+}
+section, aside{
+    border: 2px solid red;
+    margin: 20px;
+    padding: 20px;
+}
+section{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+#lower_area{
+    display: flex;
+}
+.col{
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    background-color:aqua;
+    text-align: center;
+    padding: 40px;
+    font-weight: bold;
+    color:aquamarine;
+}
+.button {
+    background-color:chocolate;
+    color:gold;
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: crimson;
+    border-color:black;
+
 }
