@@ -3,5 +3,43 @@ html{
 }
 body{
     background-color: azure;
+    width: 70%;
+    text-align: center;
+    margin: 20px auto;
+}
+#container{
+    background-color: darkkhaki;
+}
+img{
+    display: block;
+    margin: 0 auto;
     width: 50%;
+}
+nav{
+    background-color:gold;
+    padding: 2px 0;
+    text-align: center;
+}
+nav ul{
+    padding: 0;
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    background-color:cornflowerblue;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.3em;
+    font-weight:bold;
+    text-decoration: none;
+    border: 4px groove crimson;
+    margin: 0 10px;
+}
+nav li a:hover{   
+    color:crimson;
+    background-color:rgb(74, 109, 175);
 }
