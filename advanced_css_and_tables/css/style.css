@@ -92,3 +92,9 @@ footer{
     border-color:black;
 
 }
+.single_page {
+    width: 100%;
+}
+table, th, tr {
+    border: 4px solid purple;
+}
