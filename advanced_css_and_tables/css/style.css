@@ -1,22 +1,40 @@
 html{
-    background-image: url("../images/placeholderBackgorund.png");
+    background-image: url("../images/vertical2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, sans-serif
+}
+h1, h2, h3, nav, th {
+    font-family: Tahoma;
 }
 body{
     background-color: azure;
-    width: 80%;
+    width: 70%;
     text-align: center;
     margin: 20px auto;
+    border: 15px groove #43D6C8;
+    border-radius: 5px;
+    background-color: #7B4BBF;
+    color:#cfadff;
 }
 #container{
-    background-color: darkkhaki;
+    background-color: #7B4BBF;
 }
-img{
+header img{
     display: block;
     margin: 0 auto;
     width: 50%;
+    padding: 20px 20px 20px 20px;
+    background-color: #84BAE3;
+    border-radius: 5px;
+    border: 15px groove #43D6C8;
+}
+header{
+    padding: 20px;
 }
 nav{
-    background-color:gold;
+    background-color:#006141;
     padding: 2px 0;
     text-align: center;
 }
@@ -29,27 +47,31 @@ nav li{
 }
 nav li a{
     display: block;
-    background-color:cornflowerblue;
-    width: 200px;
+    background-color: #4A6DD9;
+    width: 150px;
     height: 50px;
     line-height: 50px;
     font-size: 1.3em;
     font-weight:bold;
     text-decoration: none;
-    border: 4px groove crimson;
+    border: 8px groove #43D6C8;
     margin: 0 10px;
+    color: #0000007a;
+    border-radius: 5px;
 }
 nav li a:hover{   
-    color:crimson;
-    background-color:rgb(74, 109, 175);
+    color:rgba(0, 0, 0, 0.555);
+    background-color:#3a5bbe;
+    border-color: rgb(207, 78, 96);
 }
 main {
     display: flex;
 }
 section, aside{
-    border: 2px solid red;
+    border: 4px groove #43D6C8;
     margin: 20px;
     padding: 20px;
+    border-radius: 5px;
 }
 section{
     width: 70%;
@@ -61,35 +83,53 @@ aside{
     display: flex;
 }
 .col{
-    border: 2px solid red;
-    margin: 10px;
+    border: 4px groove #43D6C8;
+    margin: 5px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+
 }
 footer{
-    background-color:aqua;
+    background-color:#7B4BBF;
     text-align: center;
     padding: 40px;
     font-weight: bold;
     color:aquamarine;
 }
 .button {
-    background-color:chocolate;
-    color:gold;
+    background-color:#006141;
+    color:#84BAE3;
     display: block;
     text-decoration: none;
     width: 100px;
     height: 20px;
     margin-top: 10px;
+    margin-left:26px;
     padding: 10px;
     text-align: center;
-    border: 2px solid blue;
-    border-radius: 10px;
+    border: 4px groove #43D6C8;
+    border-radius: 5px;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    border-radius: 5px;
+    border: 15px groove #43D6C8;
+}
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    height: 25%;
+    border-radius: 5px;
+    border: 1px groove #43D6C8;
 }
 
 .button:hover{
-    background-color: crimson;
-    border-color:black;
+    background-color: #00501f;
+    border-color:rgb(207, 78, 96);
+    color:#84bae37e;
 
 }
 .single_page {
