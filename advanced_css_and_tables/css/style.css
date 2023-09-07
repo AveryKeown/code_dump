@@ -78,7 +78,7 @@ section{
     width: 70%;
 }
 aside{
-    width: 50%;
+    width: 70%;
 }
 #Ihatethis{
     text-align: center;
@@ -121,15 +121,15 @@ footer{
 img{
     display: block;
     margin: 0 auto;
-    width: 110px;
+    width: 300px;
     border-radius: 5px;
     border: 15px groove #43D6C8;
 }
 section img {
     display: block;
     margin: 0 auto;
-    width: 75%;
-    height: 25%;
+    width: 70%;
+    height:70%;
     border-radius: 5px;
     border: 1px groove #43D6C8;
 }
@@ -144,5 +144,32 @@ section img {
     width: 100%;
 }
 table, th, tr {
-    border: 6px groove #43D6C8;
+    border: 10px groove #43D6C8;
+    text-align: center;
+    margin:auto 0px;
+    ;
+}
+th{
+    border: 10px groove #43D6C8;
+    text-align: center;
+    margin:auto 0px;
+    padding: 20px;
+}
+tr{
+    border: 10px groove #43D6C8;
+    text-align: center;
+    margin:auto 0px;
+    padding: 20px;
+}
+table img {
+    width: 100px;
+    margin:auto 0px;
+}
+a {
+    text-decoration: none;
+    color:#cfadff;
+}
+a:hover {
+    text-decoration: none;
+    color:#00501f;
 }
