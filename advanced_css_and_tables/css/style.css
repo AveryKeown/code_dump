@@ -3,13 +3,12 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    font-family: Verdana, sans-serif
+    font-family: Verdana, sans-serif;
 }
 h1, h2, h3, nav, th {
     font-family: Tahoma;
 }
 body{
-    background-color: azure;
     width: 70%;
     text-align: center;
     margin: 20px auto;

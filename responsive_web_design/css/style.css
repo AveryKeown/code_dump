@@ -1,10 +1,18 @@
-body{
+
+html{
     background-image: url("../images/vertical2.png");
+    font-family: Verdana, sans-serif;
+}
+body{
+    background-color: #7B4BBF;
 }
 img{
     display: block;
     margin: 0 auto;
     width:100%;
+}
+h1, h2, h3 {
+    font-family: Tahoma;
 }
 #container{
     background-color: #7B4BBF;
@@ -31,4 +39,42 @@ font-size: 1.3em;
 padding: 5px 0;
 background-color: #4A6DD9;
 color: #0000007a;
+}
+nav li a:hover{
+    color:rgba(0, 0, 0, 0.555);
+    background-color:#3a5bbe;
+    border-color: rgb(207, 78, 96);
+}
+main{
+    padding: 20px;
+}
+.col {
+    padding: 10px;
+    border-top: 3px groove #43D6C8;
+}
+footer{
+    background-color:#7B4BBF;
+    text-align: center;
+    padding: 40px 0;
+    font-weight: bold;
+    color:aquamarine;
+}
+.button {
+    background-color:#006141;
+    color:#84BAE3;
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left:26px;
+    padding: 10px;
+    text-align: center;
+    border: 4px groove #43D6C8;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #00501f;
+    border-color:rgb(207, 78, 96);
+    color:#84bae37e;
 }
