@@ -6,3 +6,29 @@ img{
     margin: 0 auto;
     width:100%;
 }
+#container{
+    background-color: #7B4BBF;
+}
+nav{
+    background-color: #006141;
+    padding: 2px 0;
+    text-align: center;
+}
+nav ul{
+    padding: 0px;
+    list-style-type: none;
+}
+nav li{
+    display: block;
+    border-bottom: 3px groove #43D6C8;
+}
+nav li a{
+display: block;
+height: 40px;
+line-height: 40px;
+text-decoration: none;
+font-size: 1.3em;
+padding: 5px 0;
+background-color: #4A6DD9;
+color: #0000007a;
+}
