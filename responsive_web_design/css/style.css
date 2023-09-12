@@ -2,17 +2,37 @@
 html{
     background-image: url("../images/vertical2.png");
     font-family: Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 body{
     background-color: #7B4BBF;
+    margin: 20px auto;
+    color:#cfadff;
+    border: 15px groove #43D6C8;
+    border-radius: 5px;
 }
 img{
     display: block;
     margin: 0 auto;
     width:100%;
 }
-h1, h2, h3 {
+h1, h2, h3, nav {
     font-family: Tahoma;
+    text-align: center;
+}
+header img {
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px 20px 20px 20px;
+    background-color: #84BAE3;
+    border-radius: 5px;
+    border: 15px groove #43D6C8;
+}
+header{
+    padding: 20px;
 }
 #container{
     background-color: #7B4BBF;
@@ -21,6 +41,8 @@ nav{
     background-color: #006141;
     padding: 2px 0;
     text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
 }
 nav ul{
     padding: 0px;
@@ -31,14 +53,14 @@ nav li{
     border-bottom: 3px groove #43D6C8;
 }
 nav li a{
-display: block;
-height: 40px;
-line-height: 40px;
-text-decoration: none;
-font-size: 1.3em;
-padding: 5px 0;
-background-color: #4A6DD9;
-color: #0000007a;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+    background-color: #4A6DD9;
+    color: #0000007a;
 }
 nav li a:hover{
     color:rgba(0, 0, 0, 0.555);
@@ -51,6 +73,19 @@ main{
 .col {
     padding: 10px;
     border-top: 3px groove #43D6C8;
+    width: 70%;
+    height:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col img{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
 }
 footer{
     background-color:#7B4BBF;
@@ -86,6 +121,25 @@ table {
 table img{
     width: 100%;
 }
+p{
+    text-align: center;
+}
+@media (max-width: 300px) {
+    .button {
+        width: 30%;
+        text: size 20%;
+    }
+}
+@media (min-width: 600px) {
+    body{
+        width: 80%;
+    }
+}
+@media (min-width: 500px) {
+    body{
+        width: 90%;
+    }
+}
 @media (min-width: 768px) {
     nav li {
         display: inline-block;
@@ -108,8 +162,14 @@ table img{
         border: 4px groove #43D6C8;
         border-radius: 5px;
     }
+    .col{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .col img{
-        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
     .button{
         margin-left: auto;
@@ -120,6 +180,9 @@ table img{
     }
 }
 @media (min-width: 1024px) {
+    nav {
+        border: 5px groove #43D6C8;
+    }
     #container{
         width: 65%;
         margin: 20px auto;
