@@ -75,14 +75,16 @@ nav li a:hover{
     background-color:#3a5bbe;
     border-color: rgb(207, 78, 96);
 }
-.whyy {
-    width: 100%;
-}
-.whyy img{
-    width: 50%;
-}
 main{
     padding: 20px;
+}
+#whyy {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#whyy img{
+    width: 50%;
 }
 .col {
     padding: 10px;
