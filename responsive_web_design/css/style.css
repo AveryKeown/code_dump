@@ -78,3 +78,33 @@ footer{
     border-color:rgb(207, 78, 96);
     color:#84bae37e;
 }
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        border: 8px groove #43D6C8;
+        background-color: #4A6DD9;
+        border-radius: 5px;
+    }
+    nav li a{
+        width: 150px;
+    }
+    nav li:hover{
+        border-color: rgb(207, 78, 96);
+    }
+    main{
+        display: flex;
+    }
+    section, aside{
+        padding: 10px;
+        margin: 10px;
+        border: 4px groove #43D6C8;
+        border-radius: 5px;
+    }
+    .col img{
+        width: 75%;
+    }
+    .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
