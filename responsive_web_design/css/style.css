@@ -78,6 +78,14 @@ footer{
     border-color:rgb(207, 78, 96);
     color:#84bae37e;
 }
+table {
+    border: 10px groove #43D6C8;
+    margin-left: auto;
+    margin-right: auto;
+}
+table img{
+    width: 100%;
+}
 @media (min-width: 768px) {
     nav li {
         display: inline-block;
@@ -106,5 +114,23 @@ footer{
     .button{
         margin-left: auto;
         margin-right: auto;
+    }
+    table img{
+        width: 100px;
+    }
+}
+@media (min-width: 1024px) {
+    #container{
+        width: 65%;
+        margin: 20px auto;
+    }
+    #lower_area {
+        display: flex;
+    }
+    .col{
+        border: 4px groove #43D6C8;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
     }
 }
