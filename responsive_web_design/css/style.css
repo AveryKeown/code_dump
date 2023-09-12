@@ -78,13 +78,6 @@ nav li a:hover{
 main{
     padding: 20px;
 }
-#whyy {
-    width: 100%;
-
-}
-#whyy img{
-    width: 50%;
-}
 .col {
     padding: 10px;
     border-top: 3px groove #43D6C8;
@@ -209,5 +202,10 @@ p{
         padding: 10px;
         margin: 10px;
         border-radius: 5px;
+    }
+    #middle {
+        width: 75%;
+        margin: 0 auto;
+        display: block;
     }
 }
