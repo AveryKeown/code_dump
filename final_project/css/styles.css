@@ -1,0 +1,60 @@
+html{
+    background-image: url("../final_project/images/rimworldBackground.png");
+    font-family: Verdana, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body{
+   background-color:#2C2C2D; 
+   color:#BABBBD;
+   border: 10px groove #9c7544;
+   width: 70%;
+   margin: 0 auto;
+}
+h1, h2, h3, nav {
+    font-family: Tahoma;
+    text-align: center;
+}
+header img{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px 20px 20px 20px;
+}
+a {
+    text-decoration: none;
+    color:#cfadff;
+}
+a:hover {
+    text-decoration: none;
+    color:#00501f;
+}
+nav{
+    background-color: #006141;
+    padding: 2px 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+nav ul{
+    padding: 0px;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    border: 8px groove #9c7544;
+    background-color: #4A6DD9;
+    border-radius: 5px;
+}
+nav li:hover{
+    border-color: rgb(207, 78, 96);
+}
+nav li a{ 
+    width: 150px;
+}
+nav li a:hover{
+    color:rgb(0, 0, 0, 0.555);
+    background-color:#3a5bbe;
+    border-color: rgb(207, 78, 96);
+}
