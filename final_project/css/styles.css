@@ -1,9 +1,8 @@
 html{
-    background-image: url("../final_project/images/rimworldBackground.png");
+    background-image: url("../images/rimworldBackground.png");
     font-family: Verdana, sans-serif;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    
 }
 body{
    background-color:#2C2C2D; 
