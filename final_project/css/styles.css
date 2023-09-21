@@ -23,37 +23,44 @@ header img{
 }
 a {
     text-decoration: none;
-    color:#cfadff;
+    color:#BABBBD;
 }
 a:hover {
     text-decoration: none;
     color:#00501f;
 }
 nav{
-    background-color: #006141;
+    background-color: #1a1a1a;
     padding: 2px 0;
     text-align: center;
-    font-weight: bold;
-    border-radius: 5px;
+    border-bottom:2px groove #9c7544;
 }
 nav ul{
-    padding: 0px;
+    padding: 5px;
     list-style-type: none;
+    height: 10px;
+    width: 100%;
 }
 nav li {
     display: inline-block;
-    border: 8px groove #9c7544;
-    background-color: #4A6DD9;
-    border-radius: 5px;
+    border: 1px groove #9c7544;
+    background-color: #000000;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+    height: 23px;
+    font-size: 20px;
+
+
 }
 nav li:hover{
-    border-color: rgb(207, 78, 96);
+    border-color: #61BF5E;
 }
 nav li a{ 
     width: 150px;
 }
 nav li a:hover{
-    color:rgb(0, 0, 0, 0.555);
-    background-color:#3a5bbe;
+    color:#ffffff;
+    background-color:#000000;
     border-color: rgb(207, 78, 96);
 }
