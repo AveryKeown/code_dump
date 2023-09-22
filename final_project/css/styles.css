@@ -42,7 +42,6 @@ nav ul{
     width: 100%;
 }
 nav li {
-    display: inline-block;
     border: 1px groove #9c7544;
     background-color: #000000;
     border-top-right-radius: 10px;
@@ -63,4 +62,33 @@ nav li a:hover{
     color:#ffffff;
     background-color:#000000;
     border-color: rgb(207, 78, 96);
+}
+h2 {
+    color: #AFA54C;
+    text-shadow: #000000;
+}
+h3 {
+    color: #487271;
+    text-shadow: #000000;
+}
+@media (min-width: 784px) {
+    nav li {
+        display: inline-block;
+    }
+    #one {
+        //display: flex;
+        margin: 10px;
+    }
+    #smart_main, #sidebar {
+        margin: 10px;        
+    }
+    #smart_main {
+        width: 30%;
+    }
+    #sidebar {
+        width: 30%;
+    }
+}
+@media (min-width: 1024px) {
+
 }
