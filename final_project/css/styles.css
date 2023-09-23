@@ -49,8 +49,6 @@ nav li {
     padding: 5px;
     height: 23px;
     font-size: 20px;
-
-
 }
 nav li:hover{
     border-color: #61BF5E;
@@ -64,10 +62,12 @@ nav li a:hover{
     border-color: rgb(207, 78, 96);
 }
 h2 {
-    color: #AFA54C;
+    display: block;
+    color: #af814c;
     text-shadow: #000000;
 }
 h3 {
+    display: block;
     color: #487271;
     text-shadow: #000000;
 }
@@ -76,8 +76,7 @@ h3 {
         display: inline-block;
     }
     #one {
-        //display: flex;
-        margin: 10px;
+        margin: 20px;
     }
     #smart_main, #sidebar {
         margin: 10px;        
