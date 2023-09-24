@@ -2,6 +2,7 @@ html{
     background-image: url("../images/rimworldBackground.png");
     font-family: Verdana, sans-serif;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     
 }
 body{
@@ -9,7 +10,7 @@ body{
    color:#BABBBD;
    border: 10px groove #9c7544;
    width: 70%;
-   margin: 0 auto;
+   margin: 20px auto;
 }
 h1, h2, h3, nav {
     font-family: Tahoma;
@@ -20,6 +21,11 @@ header img{
     margin: 0 auto;
     width: 60%;
     padding: 20px 20px 20px 20px;
+}
+video{
+    width: 50%;
+    margin: 0 auto;  
+    display: block;  
 }
 a {
     text-decoration: none;
@@ -51,7 +57,7 @@ nav li {
     font-size: 20px;
 }
 nav li:hover{
-    border-color: #61BF5E;
+    border-color: #c24949;
 }
 nav li a{ 
     width: 150px;
@@ -59,7 +65,6 @@ nav li a{
 nav li a:hover{
     color:#ffffff;
     background-color:#000000;
-    border-color: rgb(207, 78, 96);
 }
 h2 {
     display: block;
@@ -70,6 +75,21 @@ h3 {
     display: block;
     color: #487271;
     text-shadow: #000000;
+}
+article {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;     
+}
+#tip p{
+    display: flex;
+    background-color:#1a1a1a;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #61BF5E;
 }
 @media (min-width: 784px) {
     nav li {
