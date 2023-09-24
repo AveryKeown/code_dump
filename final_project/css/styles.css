@@ -2,8 +2,7 @@ html{
     background-image: url("../images/rimworldBackground.png");
     font-family: Verdana, sans-serif;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;    
 }
 body{
    background-color:#2C2C2D; 
@@ -22,10 +21,17 @@ header img{
     width: 60%;
     padding: 20px 20px 20px 20px;
 }
+section img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 5px groove #9c7544;
+}
 video{
     width: 50%;
     margin: 0 auto;  
-    display: block;  
+    display: block; 
+    border: 5px groove #9c7544; 
 }
 a {
     text-decoration: none;
@@ -79,17 +85,50 @@ h3 {
 article {
     width: 70%;
     text-align: center;
-    margin: 0 auto;     
+    margin: 0 auto; 
+    padding: 5px;   
+    background-color: #242424;  
+    border-radius: 7px;
 }
-#tip p{
-    display: flex;
-    background-color:#1a1a1a;
-    width: 20%;
+article p {
+    width: 90%;
     text-align: center;
     margin: 0 auto;
-    padding: 7px;
+}
+aside{
+    width: 15%;
+    margin: 0 10px;     
+}
+.tip{
+    display: flex;
+    width: 25%;
+    font-size: 13px;
+    background-color:#1a1a1a;
+    text-align: center;
+    padding: 5px;
     border-radius: 8px;
     border: 1px solid #61BF5E;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tips{
+    display: flex;   
+    margin:0px 0px 10px 5px; 
+}
+#one {
+    display: flex;
+}
+footer{
+    width: 40%;
+    background-color:#1a1a1a;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #61BF5E;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 @media (min-width: 784px) {
     nav li {
