@@ -101,7 +101,19 @@ aside{
 }
 .tip{
     display: flex;
-    width: 25%;
+    width: 30%;
+    font-size: 13px;
+    background-color:#1a1a1a;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #61BF5E;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tipSide{
+    display: flex;
+    width:100%;
     font-size: 13px;
     background-color:#1a1a1a;
     text-align: center;
@@ -116,6 +128,9 @@ aside{
     margin:0px 0px 10px 5px; 
 }
 #one {
+    display: flex;
+}
+#two {
     display: flex;
 }
 footer{
