@@ -102,6 +102,8 @@ article p {
     width: 90%;
     text-align: center;
     margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 aside{
     width: 15%;
@@ -111,7 +113,7 @@ aside ul{
     padding: 0px;
 }
 .tip{
-    display: flex;
+
     width: 30%;
     font-size: 13px;
     background-color:#1a1a1a;
@@ -121,9 +123,11 @@ aside ul{
     border: 1px solid #61BF5E;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 .tipSide{
-    display: flex;
+
     width:100%;
     font-size: 13px;
     background-color:#1a1a1a;
@@ -135,7 +139,7 @@ aside ul{
     margin-right: auto;
 }
 .tips{
-    display: flex;   
+   
     margin:0px 0px 10px 5px; 
 }
 #one {
@@ -163,22 +167,46 @@ audio {
      html{ 
         background-size: cover;
     }
+    body {
+        width:100%;
+        margin: 0 0 0 0;
+    }
+    article {
+        font-size: 80%;
+    }
+    video {
+        width: 100%
+    }
+    img {
+        width: 100%;
+    }
+    aside {
+        display: block;
+    }
+    section {
+        display: block;
+        width:
+    }
+    .tip {
+        width: 100%;
+        font-size: 50%;
+    }
+
+}
+@media (max-width: 975px){
+    .tipSide{
+        font-size: 20%;
+    }
+    .tip{
+
+    }
+    html{ 
+        background-size: cover;
+    }
 }
 @media (min-width: 784px) {
     nav li {
         display: inline-block;
-    }
-    #one {
-        margin: 20px;
-    }
-    #smart_main, #sidebar {
-        margin: 10px;        
-    }
-    #smart_main {
-        width: 30%;
-    }
-    #sidebar {
-        width: 30%;
     }
 }
 @media (min-width: 1024px) {
