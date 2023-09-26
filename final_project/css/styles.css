@@ -113,7 +113,7 @@ aside ul{
     padding: 0px;
 }
 .tip{
-
+    display: flex;
     width: 30%;
     font-size: 13px;
     background-color:#1a1a1a;
@@ -127,7 +127,7 @@ aside ul{
     margin-bottom: 10px;
 }
 .tipSide{
-
+    display: flex;
     width:100%;
     font-size: 13px;
     background-color:#1a1a1a;
@@ -139,7 +139,7 @@ aside ul{
     margin-right: auto;
 }
 .tips{
-   
+    display: flex;
     margin:0px 0px 10px 5px; 
 }
 #one {
@@ -163,6 +163,11 @@ footer{
 audio {
 
 }
+@media (min-width: 500px {
+    .tip {
+
+    }
+})
 @media (max-width: 500px){
      html{ 
         background-size: cover;
@@ -173,6 +178,7 @@ audio {
     }
     article {
         font-size: 80%;
+        width: 100%;
     }
     video {
         width: 100%
@@ -182,10 +188,10 @@ audio {
     }
     aside {
         display: block;
+        width: 100%
     }
     section {
         display: block;
-        width:
     }
     .tip {
         width: 100%;
