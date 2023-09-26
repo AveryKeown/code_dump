@@ -163,11 +163,11 @@ footer{
 audio {
 
 }
-@media (min-width: 500px {
+@media (min-width: 500px) {
     .tip {
 
     }
-})
+}
 @media (max-width: 500px){
      html{ 
         background-size: cover;
