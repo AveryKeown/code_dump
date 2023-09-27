@@ -106,8 +106,8 @@ article p {
     padding-bottom: 10px;
 }
 aside{
-    width: 15%;
-    margin: 0 10px;     
+    width: 100%;
+    margin: 0 auto;     
 }
 aside ul{
     padding: 0px;
@@ -177,8 +177,11 @@ a:hover {
 li {
     text-align: center;
 }
-audio {
-    color:#1a1a1a;
+table {
+    margin: 0 auto;
+}
+table img {
+    width: 100px;
 }
 @media (max-width: 500px){
      html{ 
@@ -186,11 +189,11 @@ audio {
     }
     body {
         width:100%;
-        margin: 0 0 0 0;
+        margin: 0 auto;
     }
     article {
         font-size: 80%;
-        width: 100%;
+        width: 90%;
     }
     video {
         width: 100%
@@ -200,13 +203,13 @@ audio {
     }
     aside {
         display: block;
-        width: 100%
+        width: 90%
     }
     section {
         display: block;
     }
     .tip {
-        width: 100%;
+        width: 90%;
         font-size: 50%;
     }
 
@@ -220,6 +223,7 @@ audio {
     }
 }
 @media (min-width: 784px) {
+    
     nav li {
         display: inline-block;
     }
@@ -240,7 +244,17 @@ audio {
     }
     #five {
         display: flex;
+    }
+    aside {
+        width: 15%;
+        margin: 0 10px;
+    }
+    aside ul{
+        padding: 0px;
+    }
 }
 @media (min-width: 1070px) {
-
+    table img {
+        width: 200px;
+    }
 }
