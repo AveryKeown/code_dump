@@ -8,8 +8,8 @@ body{
    background-color:#2C2C2D; 
    color:#BABBBD;
    border: 10px groove #9c7544;
-   width: 70%;
-   margin: 20px auto;
+   width: 100%;
+   margin: 0 auto;
 }
 h1, h2, h3, nav {
     font-family: Tahoma;
@@ -210,7 +210,7 @@ table img {
     }
     .tip {
         width: 90%;
-        font-size: 50%;
+        font-size: 60%;
     }
 
 }
@@ -223,7 +223,10 @@ table img {
     }
 }
 @media (min-width: 784px) {
-    
+    body {
+        width: 70%;
+        margin: 20px auto;
+    }
     nav li {
         display: inline-block;
     }
