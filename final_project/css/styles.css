@@ -170,7 +170,7 @@ li {
     text-align: center;
 }
 audio {
-
+    color:#1a1a1a;
 }
 @media (min-width: 500px) {
     .tip {
