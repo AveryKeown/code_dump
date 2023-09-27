@@ -112,6 +112,9 @@ aside{
 aside ul{
     padding: 0px;
 }
+li {
+    list-style-type: none;
+}
 .tip{
     display: flex;
     width: 30%;
@@ -128,7 +131,7 @@ aside ul{
 }
 .tipSide{
     display: flex;
-    width:100%;
+    width:90%;
     font-size: 13px;
     background-color:#1a1a1a;
     text-align: center;
@@ -137,6 +140,8 @@ aside ul{
     border: 1px solid #61BF5E;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+    
 }
 .tips{
     display: flex;
@@ -146,6 +151,9 @@ aside ul{
     display: flex;
 }
 #two {
+    display: flex;
+}
+#five {
     display: flex;
 }
 footer{
