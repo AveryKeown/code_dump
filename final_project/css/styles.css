@@ -116,7 +116,7 @@ li {
     list-style-type: none;
 }
 .tip{
-    display: flex;
+    display: block;
     width: 30%;
     font-size: 13px;
     background-color:#1a1a1a;
@@ -130,7 +130,7 @@ li {
     margin-bottom: 10px;
 }
 .tipSide{
-    display: flex;
+    display: block;
     width:90%;
     font-size: 13px;
     background-color:#1a1a1a;
@@ -144,17 +144,17 @@ li {
     
 }
 .tips{
-    display: flex;
+    display: block;
     margin:0px 0px 10px 5px; 
 }
 #one {
-    display: flex;
+    display: block;
 }
 #two {
-    display: flex;
+    display: block;
 }
 #five {
-    display: flex;
+    display: block;
 }
 footer{
     width: 40%;
@@ -179,11 +179,6 @@ li {
 }
 audio {
     color:#1a1a1a;
-}
-@media (min-width: 500px) {
-    .tip {
-
-    }
 }
 @media (max-width: 500px){
      html{ 
@@ -216,12 +211,9 @@ audio {
     }
 
 }
-@media (max-width: 975px){
+@media (max-width: 1070px){
     .tipSide{
         font-size: 20%;
-    }
-    .tip{
-
     }
     html{ 
         background-size: cover;
@@ -231,7 +223,24 @@ audio {
     nav li {
         display: inline-block;
     }
+    .tip{
+        display: flex;   
+    }
+    .tipSide{
+        display: flex;    
+    }
+    .tips{
+        display: flex;
+    }
+    #one {
+        display: flex;
+    }
+    #two {
+        display: flex;
+    }
+    #five {
+        display: flex;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1070px) {
 
 }
