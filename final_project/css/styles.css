@@ -187,6 +187,13 @@ table {
 table img {
     width: 100px;
 }
+audio {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 @media (max-width: 500px){
      html{ 
         background-size: cover;
