@@ -224,6 +224,12 @@ table img {
     body {
         width: 80%;
     }
+    nav {
+        margin: 0 auto;
+    }
+    header img{
+        width: 80%;
+    }
     .tip {
         width: 90%;
         font-size: 60%;
