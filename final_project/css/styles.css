@@ -235,6 +235,7 @@ table img {
     }
     video {
         width: 80%;
+        margin: 0 auto;
     }
     .tip {
         width: 90%;
