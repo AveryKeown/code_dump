@@ -107,7 +107,10 @@ article p {
 }
 aside{
     width: 100%;
-    margin: 0 auto;     
+    margin: 0 auto;    
+}
+#links {
+    margin-top: 160px; 
 }
 aside ul{
     padding: 0px;
@@ -131,7 +134,7 @@ li {
 }
 .tipSide{
     display: block;
-    width:90%;
+    width: 90%;
     font-size: 13px;
     background-color:#1a1a1a;
     text-align: center;
@@ -145,7 +148,8 @@ li {
 }
 .tips{
     display: block;
-    margin:0px 0px 10px 5px; 
+    margin:0 auto;  
+    width: 90%;
 }
 #one {
     display: block;
@@ -208,18 +212,21 @@ table img {
     section {
         display: block;
     }
-    .tip {
-        width: 90%;
-        font-size: 60%;
-    }
 
 }
 @media (max-width: 1070px){
     .tipSide{
-        font-size: 20%;
+        font-size: 60%;
     }
     html{ 
         background-size: cover;
+    }
+    body {
+        width: 80%;
+    }
+    .tip {
+        width: 90%;
+        font-size: 60%;
     }
 }
 @media (min-width: 784px) {
@@ -236,8 +243,8 @@ table img {
     .tipSide{
         display: flex;    
     }
-    .tips{
-        display: flex;
+    #links {
+        margin-top: 0; 
     }
     #one {
         display: flex;
@@ -259,5 +266,8 @@ table img {
 @media (min-width: 1070px) {
     table img {
         width: 200px;
+    }
+    .tips{
+        display: flex;
     }
 }
